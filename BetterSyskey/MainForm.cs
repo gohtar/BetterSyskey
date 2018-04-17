@@ -27,6 +27,7 @@ namespace BetterSyskey
         {
             Form f = new StartupKeyForm();
             f.ShowDialog();
+            this.Close();
         }
 
         private void okBtn_Click(object sender, EventArgs e)

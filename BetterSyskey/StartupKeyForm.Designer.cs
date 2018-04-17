@@ -68,6 +68,7 @@
             this.confirmInput.Size = new System.Drawing.Size(182, 20);
             this.confirmInput.TabIndex = 6;
             this.confirmInput.UseSystemPasswordChar = true;
+            this.confirmInput.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.confirmInput_KeyPress);
             // 
             // passwordInput
             // 
@@ -76,6 +77,7 @@
             this.passwordInput.Size = new System.Drawing.Size(182, 20);
             this.passwordInput.TabIndex = 5;
             this.passwordInput.UseSystemPasswordChar = true;
+            this.passwordInput.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.passwordInput_KeyPress);
             // 
             // label3
             // 
@@ -165,6 +167,7 @@
             this.radioButton3.TabIndex = 0;
             this.radioButton3.Text = "Store Startup Key on Floppy Disk\r\n";
             this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
             // radioButton2
             // 

@@ -113,6 +113,7 @@
             this.MinimizeBox = false;
             this.Name = "KittyForm";
             this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.Text = "WARNING";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
