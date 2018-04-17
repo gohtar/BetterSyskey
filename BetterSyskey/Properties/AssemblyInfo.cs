@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Better Syskey")]
-[assembly: AssemblyDescription("Replacement for the Syskey program to annoy tech scammers")]
+[assembly: AssemblyDescription("SMA Lock Tool")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Microsopht")]
 [assembly: AssemblyProduct("BetterSyskey")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
